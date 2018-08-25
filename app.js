@@ -8,6 +8,6 @@ app.get('/datetime', (req, res) => {
 	res.send(moment().format('Y-MM-DD hh:mm:ss'))
 })
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(80, () => console.log('Example app listening on port 3000!'))
 
 
